@@ -1,0 +1,30 @@
+name: Release anti-lagger
+on:
+  push:
+    branches: [main]
+    paths: [module.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm test
+      - name: Prepare release
+        id: metadata
+        run: |
+          VERSION=$(node -p "JSON.parse(require('fs').readFileSync('module.json')).version")
+          echo "tag=v$VERSION" >> "$GITHUB_OUTPUT"
+          zip -r module.zip module.json LICENSE README.md styles scripts templates languages
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.metadata.outputs.tag }}
+        run: |
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --target "$GITHUB_SHA" --title "anti-lagger $TAG" --notes "Foundry VTT 14 build 365 fork. Profiles: Lagger, Normal, Lagger not needed."
+          gh release upload "$TAG" module.json module.zip --clobber
