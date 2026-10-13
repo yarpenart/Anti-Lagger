@@ -1,0 +1,11 @@
+{
+  "AntiLagger.Title": "anti-lagger",
+  "AntiLagger.BadTitle": "Lagger",
+  "AntiLagger.BadDescription": "If you have a laptop or a low end computer, use this setting for the best experience!",
+  "AntiLagger.MediumTitle": "Normal",
+  "AntiLagger.MediumDescription": "You have a mid-range computer that isn't bad, but it's getting on its years.",
+  "AntiLagger.GoodTitle": "Lagger not needed",
+  "AntiLagger.GoodDescription": "Your computer is squarely in the PCMR club.",
+  "AntiLagger.Selection": "Select your computer's quality level:",
+  "AntiLagger.Accept": "Okay"
+}
