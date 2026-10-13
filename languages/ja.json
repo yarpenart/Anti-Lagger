@@ -1,0 +1,11 @@
+{
+  "AntiLagger.BadTitle": "Lagger",
+  "AntiLagger.BadDescription": "ノートPCやローエンドのPCをお使いの場合は、この設定で最高の体験ができます。",
+  "AntiLagger.MediumTitle": "Normal",
+  "AntiLagger.MediumDescription": "少々年季の入ったミドルレンジPCをお持ちのようです。悪くないですね。",
+  "AntiLagger.GoodTitle": "Lagger not needed",
+  "AntiLagger.GoodDescription": "つよつよなゲーミングPCをお使いですか！ すばらしい。",
+  "AntiLagger.Selection": "あなたのパソコンの性能ランクを選択してください",
+  "AntiLagger.Accept": "じゃあこれで",
+  "AntiLagger.Title": "anti-lagger"
+}

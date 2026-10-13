@@ -1,0 +1,11 @@
+{
+  "AntiLagger.BadTitle": "Lagger",
+  "AntiLagger.BadDescription": "如果你使用筆電或低階電腦，使用此設定來獲得最佳體驗！",
+  "AntiLagger.MediumTitle": "Normal",
+  "AntiLagger.MediumDescription": "你使用不算糟的中階電腦，但稍微有點年紀了。",
+  "AntiLagger.GoodTitle": "Lagger not needed",
+  "AntiLagger.GoodDescription": "你的電腦正在 PCMR （個人電腦優等種族）俱樂部的行列中。",
+  "AntiLagger.Selection": "選擇你電腦的品質等級：",
+  "AntiLagger.Accept": "好",
+  "AntiLagger.Title": "anti-lagger"
+}

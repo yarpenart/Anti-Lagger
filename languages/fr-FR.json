@@ -1,0 +1,11 @@
+{
+  "AntiLagger.BadTitle": "Lagger",
+  "AntiLagger.BadDescription": "Si tu as un portable ou un ordinateur peu puissant, utilise ce paramètre pour une expérience optimale !",
+  "AntiLagger.MediumTitle": "Normal",
+  "AntiLagger.MediumDescription": "Tu as un ordinateur milieu de gamme qui n'est pas mauvais, mais qui commence à prendre de l'âge.",
+  "AntiLagger.GoodTitle": "Lagger not needed",
+  "AntiLagger.GoodDescription": "Ton ordinateur puissant est presque membre du club VIP.",
+  "AntiLagger.Selection": "Sélectionne le niveau de performance de ton ordinateur :",
+  "AntiLagger.Accept": "Accepter",
+  "AntiLagger.Title": "anti-lagger"
+}
